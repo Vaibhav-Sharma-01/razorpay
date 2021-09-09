@@ -1,0 +1,48 @@
+.adj{
+  width: 50%;  
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 20vh;
+}
+
+.red{
+  background-color: red !important;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.yellow{
+  background-color: yellow;
+  color: rgba(0, 0, 0, 0.603);
+
+}
+
+.white{
+  background-color: white;
+  color: rgba(0, 0, 0, 0.603);
+
+}
+.mat-button-toggle-checked{
+  background-color: rgb(154, 223, 18);
+  color: rgba(0, 0, 0, 0.603);
+
+}
+
+.mat-div{
+  position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 2px;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+mat-button-toggle-group{
+  color: black;
+  width: 100%;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 0px 0px;
+  margin-left: 2%;
+}

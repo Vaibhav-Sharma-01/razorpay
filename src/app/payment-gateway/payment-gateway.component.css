@@ -1,0 +1,11 @@
+.adj{
+  width: 50%;  
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 20vh;
+}
+
+mat-form-field{
+  width: 100%;
+}

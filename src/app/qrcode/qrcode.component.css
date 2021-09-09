@@ -1,0 +1,23 @@
+.btn{
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+.adj{
+  width: 50%;  
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+}
+
+.spin{
+  width: 50%;
+  position: relative;
+  left: 45%;
+}
+
+.video{
+  width: 80%;
+  height: 400px;
+}

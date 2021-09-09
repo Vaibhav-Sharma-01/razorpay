@@ -1,0 +1,13 @@
+<mat-card class="adj">
+  <div>
+    <video #videoPlayer class="video"></video>
+  </div>
+  <div *ngIf="!decode && count==1" class="spin">
+    <mat-spinner diameter="50"></mat-spinner>
+  </div>
+  {{this.decode}}
+  <div>
+    <button mat-raised-button color="primary" class="btn" (click) = "start()">Start</button>
+    <button mat-raised-button color="primary" class="btn" (click) = "stop()">stop</button>
+  </div>
+</mat-card>
